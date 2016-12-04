@@ -11,6 +11,18 @@ Summary: Makes working with XML feel like you are working with JSON
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/xmltodict-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/xmltodict-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/xmltodict-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/xmltodict-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/xmltodict-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/xmltodict-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/xmltodict/badges/version.svg)](https://anaconda.org/conda-forge/xmltodict)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/xmltodict/badges/downloads.svg)](https://anaconda.org/conda-forge/xmltodict)
+
 Installing xmltodict
 ====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `xmltodict` available on your plat
 ```
 conda search xmltodict --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/xmltodict-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/xmltodict-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/xmltodict-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/xmltodict-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/xmltodict-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/xmltodict-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/xmltodict/badges/version.svg)](https://anaconda.org/conda-forge/xmltodict)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/xmltodict/badges/downloads.svg)](https://anaconda.org/conda-forge/xmltodict)
 
 
 Updating xmltodict-feedstock
