@@ -1,6 +1,6 @@
 {% set name = "xmltodict" %}
-{% set version = "0.10.2" %}
-{% set sha256 = "fc518ccf9adbbb917a2ddcb386be852ae6dd36935e1e8b9a3e760201abfdbf77" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "8f8d7d40aa28d83f4109a7e8aa86e67a4df202d9538be40c0cb1d70da527b0df" %}
 
 package:
   name: {{ name|lower }}
