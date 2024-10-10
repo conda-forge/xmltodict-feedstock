@@ -6,21 +6,21 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xmltodict-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/xmltodict-{{ version }}.tar.gz
   sha256: 338c8431e4fc554517651972d62f06958718f6262b04316917008e8fd677a6b0
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
 requirements:
   host:
-    - pip
+    - python >=3.7
     - setuptools
-    - python >=3.6
+    - pip
   run:
-    - python >=3.6
+    - python >=3.7
 
 test:
   imports:
