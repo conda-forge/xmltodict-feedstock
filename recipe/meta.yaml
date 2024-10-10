@@ -1,5 +1,5 @@
 {% set name = "xmltodict" %}
-{% set version = "0.14.0" %}
+{% set version = "0.14.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xmltodict-{{ version }}.tar.gz
-  sha256: 8b39b25b564fd466be566c9e8a869cc4b5083c2fec7f98665f47bf0853f6cc77
+  sha256: 338c8431e4fc554517651972d62f06958718f6262b04316917008e8fd677a6b0
 
 build:
   noarch: python
