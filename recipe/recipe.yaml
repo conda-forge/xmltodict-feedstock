@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: xmltodict
-  version: "1.0.2"
+  version: "1.0.3"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/xmltodict-${{ version }}.tar.gz
-  sha256: 54306780b7c2175a3967cad1db92f218207e5bc1aba697d887807c0fb68b7649
+  sha256: 3bf1f49c7836df34cf6d9cc7e690c4351f7dfff2ab0b8a1988bba4a9b9474909
 
 build:
   number: 0
